@@ -1,0 +1,131 @@
+#bg{
+    min-height: 100%;
+    min-width: 1024px;	
+    /* Set up proportionate scaling */
+      width: 100%;
+    height: auto; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: .5;
+  }
+
+  
+  body {
+    font-family: Helvetica;
+    padding: 10px;
+    background: #f1f1f1;
+    font-family: 'Baloo Chettan', cursive;
+
+  }
+  html{
+    min-height: 100%;
+    position: relative;
+  }
+.triviaBam{
+    text-align: center;
+    font-size: 36px;
+    margin: 5px;
+    font-weight: bold;
+}
+.triviaTopic{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    opacity: 1;
+    /* margin: 5px; */
+    font-weight: bold;
+}
+  .customHeader {
+    /* padding: 30px; */
+    /* text-align: left; */
+    background: #92ABD4;
+    opacity:.5;
+    /* width: 100%; */
+  }
+  .navbar-brand{
+    color: whitesmoke !important;
+    font-size: 26px;
+    padding-left: 50px;
+  }
+
+  .mainPanel {
+     background: rgba(137, 168, 204,.7);
+      width: 100%;
+      min-height: 560px;
+      margin-top: 20px;
+      padding: 15px;
+  }
+.resultText{
+    color: white;
+}
+  .timerPanel{
+      display: none;
+   
+    /* height:250px; */
+    /* Positioning */
+    margin: 50px auto 0;
+    background: rgb(108, 150, 184);
+  }
+  .timeDisplay{
+    font-family: monospace;
+    font-size: 36px;
+    color:white; 
+  
+    /* Typography */
+    text-align: left;
+  
+   
+  }
+  
+  .endGameCont{
+      display:none;
+  }
+.gameEndRes{
+  
+    margin: 50px auto 0;
+    background: rgb(108, 150, 184);
+   
+}
+.gameOverText{
+
+    color: white;
+    font-size: 16px;
+}
+  .resultCont{
+      display:none;
+  }
+.selectWrap{
+    
+    /* height: 29px; */
+  
+    width: 140px;
+}
+  #gameChoiceCont{
+    
+    background-color: DodgerBlue;
+margin-bottom: 15px;
+width: 140px;
+  }
+  #gameDif{
+    background-color: DodgerBlue;
+    margin-bottom: 15px;
+    width: 240px;
+  }
+ .choicesCont{
+     margin: 15px;
+     color: white;
+ }
+ .questionChoice{
+     width: auto;
+ }
+ .questionChoice:hover{
+     background: rgba(0, 50, 50, .5);
+     cursor: pointer;
+ }
+  .roundedSel {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+ }
+  

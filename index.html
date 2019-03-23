@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TT Trivia!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Orbitron" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+    <script src="./assets/javascript/app.js"></script>
+</head>
+
+<body>
+
+    <img id="bg" src="./assets/images/busybg.jpg">
+
+    <div class="pageWrapper">
+        <div class="brandCont">
+        <div class="triviaBam"> Totally Trivial Trivia!</div>
+        <div class="triviaTopic"></div>
+        </div>
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-10 ">
+                        <div class="mainPanel rounded">
+                            <div class="gameStartCont">
+
+                                <h2 class="gamePrompt">Pick a Trivia Topic:</h2>
+                               
+                                <div class="selectWrap">
+                                    <select id="gameChoiceCont" class="gamePrompt roundedSel">
+
+                                    </select>
+                                    
+                                </div>
+                                <h2 class="gamePrompt"> Select a difficulty </h2>
+                                    <div class="selectWrap">
+                                        
+                                    <select id="gameDif" class="gamePrompt roundedSel">
+                                        <option value="20"> Easy (20 seconds a question)</option>
+                                        <option value="15"> Medium (15 seconds a question)</option>
+                                        <option value="10"> HARD (10 seconds a question)</option>
+                                        <option value="5"> EXXTREEEME (5 seconds a question)</option>
+                                    </select>
+                                    </div>
+                                <br>
+                                <button class="btn btn-success" id="startGameBtn">Start Game!</button>
+
+
+                            </div>
+                            <div class="questionCont">
+
+                            </div>
+                            <div class="choicesCont">
+
+                            </div>
+                            <div class="answersCont">
+
+                            </div>
+
+                            <div class="resultCont">
+                                <div class="resultTextCont">
+
+                                </div>
+                                <button class="btn btn-success" id="nextQBtn">Next Question</button>
+
+                            </div>
+                            <div class="endGameCont">
+                                <div class="gameEndRes">
+
+                                </div>
+                                <br>
+                                <button class="btn btn-success" id="newGameBtn">New Game!</button>
+                            </div>
+                            <div class="row justify-content-center"></div>
+                            <div class=" col-10 timerPanel">
+                                <div class="timeDisplay"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
